@@ -1,0 +1,75 @@
+C51 COMPILER V9.52.0.0   OLED_MAIN                                                         04/02/2014 22:57:58 PAGE 1   
+
+
+C51 COMPILER V9.52.0.0, COMPILATION OF MODULE OLED_MAIN
+OBJECT MODULE PLACED IN OLED_MAIN.obj
+COMPILER INVOKED BY: C:\MDK_C51\C51\BIN\C51.EXE SRC\OLED_MAIN.c BROWSE INCDIR(.\SRC) DEBUG OBJECTEXTEND PRINT(.\OLED_MAI
+                    -N.lst) TABS(2) OBJECT(OLED_MAIN.obj)
+
+line level    source
+
+   1          /********************************************************************************************
+   2                                    
+   3          中景园电子
+   4          淘宝：http://shop73023976.taobao.com/shop/view_shop.htm?tracelog=twddp&trace_log=qianniu_pc&v=1
+   5          
+   6          **********************************************************************************************/
+   7          
+   8          /********************************************************************************************
+   9                                    重要说明
+  10          1>  0.96寸的驱动板共支持三种接口；分别为三线SPI、四线SPI、IIC；所以在使用每种接口的时候需要做一定的配置
+  11              对于只使用一种接口的客户来说可能不太方便；但是如果从兼容性上来考虑；配置一下还是值得的；如果客户觉得配置
+  12              麻烦；可以提前说明让店主配置好后再发货。
+  13          2>  板子上J1的线序1~7分别为GND,VCC,CS,RES,D/C,CLK,DIN使用的时候请注意（第一脚为方孔焊盘）
+  14          3>  店主在设计的时候主要考虑当前主流的处理器接口电平为3.3V,所以驱动板的外接电源选择了3.3V；如果客户要使用5V
+             -左右的电源
+  15              为了安全期间，建议客户串一个小的电阻后使用
+  16          4>  关于IIC接口的配置；1为高电平可直接接3.3V电源；0为低电平，也即为GND
+  17              GND = GND
+  18              VCC = 3.3V
+  19              CS  = 0
+  20              RES = 1
+  21              D/C = 0
+  22              CLK = CLK
+  23              DIN = DIN
+  24              BS1 = 12 (1,2用0欧姆电阻连接)
+  25              BS2 = 23 (2,3用0欧姆电阻连接)
+  26              电阻R2为0欧姆的电阻；在IIC的时候需要焊接起来
+  27          **********************************************************************************************/
+  28          
+  29          #include "reg52.h"
+  30          
+  31          #include "oled.h"
+  32          
+  33          /*******************************Main*******************************/
+  34          void main(void)
+  35          {
+  36   1        Initial_M096128x64_ssd1306();
+  37   1        Delay_1ms(5);
+  38   1        while(1)
+  39   1        {
+  40   2          //fill_picture(0xff);//全屏显示
+  41   2        //  Delay_50ms(25);
+  42   2        //  fill_picture(0xf0);//半屏熄灭；出现一条一条的亮线
+  43   2        //  Delay_50ms(25);
+  44   2          Picture();//显示一张图片
+  45   2          Delay_50ms(25);
+  46   2        }
+  47   1      }
+  48          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     22    ----
+   CONSTANT SIZE    =   ----    ----
+C51 COMPILER V9.52.0.0   OLED_MAIN                                                         04/02/2014 22:57:58 PAGE 2   
+
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

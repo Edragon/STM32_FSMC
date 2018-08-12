@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Ping\Desktop\STM32_Nano²âÊÔ³ÌÐò\26¡¢Òº¾§´¥Ãþ+Íâ²¿FLASH\Project\RVMDK£¨uv4£©\iSO-STM32.uvproj
+Project File Date:  11/27/2014
+
+<h2>Output:</h2>
+Load "..\\..\\Output\\TEST_STM32F103VET6.axf" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

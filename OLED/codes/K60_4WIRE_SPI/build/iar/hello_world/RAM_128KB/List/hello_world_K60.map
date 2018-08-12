@@ -1,0 +1,350 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.30.6.53336/W32 for ARM              07/May/2014  16:43:07 #
+# Copyright 2007-2012 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Exe\hello_world_K #
+#                    60.out                                                   #
+#    Map file     =  C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\List\hello_world_ #
+#                    K60.map                                                  #
+#    Command line =  C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\CRC.o         #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\HAL_SPI.o     #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\SPI_FLASH.o   #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\adc16.o       #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\alloc.o       #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\arm_cm4.o     #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\assert.o      #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\crt0.o        #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\enet.o        #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\eth_phy.o     #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\hello_world.o #
+#                     C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_De #
+#                    mo_OLED\build\iar\hello_world\RAM_128KB\Obj\io.o         #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\lptmr.o       #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\mcg.o         #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\memtest.o     #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\mii.o         #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\nbuf.o        #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\oled.o        #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\pmc.o         #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\printf.o      #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\queue.o       #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\rtc.o         #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\start.o       #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\startup.o     #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\stdlib.o      #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\sysinit.o     #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\uart.o        #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\uif.o         #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\vectors.o     #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\Obj\wdog.o        #
+#                    --redirect _Printf=_PrintfFull --redirect                #
+#                    _Scanf=_ScanfFull -o C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³Ì #
+#                    ÐòÀý³Ì\KinetisK60_Demo_OLED\build\iar\hello_world\RAM_12 #
+#                    8KB\Exe\hello_world_K60.out --map                        #
+#                    C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Dem #
+#                    o_OLED\build\iar\hello_world\RAM_128KB\List\hello_world_ #
+#                    K60.map --config "C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀ #
+#                    ý³Ì\KinetisK60_Demo_OLED\build\iar\hello_world\..\config #
+#                     files\128KB_Ram.icf" --semihosting --entry              #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x1fff0000 { ro section .intvec };
+"A2":  place at 0x1fff0410 { ro section .noinit };
+"P1":  place in [from 0x1fff0000 to 0x20010000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0000 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x1fff0000   0x410  vectors.o [1]
+                              - 0x1fff0410   0x410
+
+"A2":                                         0x3c
+  .noinit              ro code  0x1fff0410    0x3c  crt0.o [1]
+                              - 0x1fff044c    0x3c
+
+"P1":                                       0x1d14
+  .rodata              const    0x1fff044c   0x5f0  oled.o [1]
+  .text                ro code  0x1fff0a3c   0x55c  printf.o [1]
+  .text                ro code  0x1fff0f98    0x20  stdlib.o [1]
+  .text                ro code  0x1fff0fb8   0x4a0  oled.o [1]
+  .text                ro code  0x1fff1458    0xe0  HAL_SPI.o [1]
+  .text                ro code  0x1fff1538     0x8  SPI_FLASH.o [1]
+  .text                ro code  0x1fff1540    0xd8  io.o [1]
+  .text                ro code  0x1fff1618    0x30  assert.o [1]
+  .text                ro code  0x1fff1648    0x38  uart.o [1]
+  .rodata              const    0x1fff1680   0x474  oled.o [1]
+  .text                ro code  0x1fff1af4   0x144  mcg.o [1]
+  .text                ro code  0x1fff1c38    0xc0  startup.o [1]
+  .text                ro code  0x1fff1cf8     0xc  arm_cm4.o [1]
+  .text                ro code  0x1fff1d04    0xa4  hello_world.o [1]
+  .rodata              const    0x1fff1da8    0xa0  oled.o [1]
+  .text                ro code  0x1fff1e48    0x98  sysinit.o [1]
+  .rodata              const    0x1fff1ee0    0x50  io.o [1]
+  CodeRelocate                  0x1fff1f30    0x50  <Block>
+    Initializer bytes  ro data  0x1fff1f30    0x50  <for CodeRelocateRam-1>
+  .text                ro code  0x1fff1f80    0x38  wdog.o [1]
+  .data_init                    0x1fff1fb8    0x34  <Block>
+    Initializer bytes  ro data  0x1fff1fb8    0x34  <for .data-1>
+  .rodata              const    0x1fff1fec    0x30  vectors.o [1]
+  .text                ro code  0x1fff201c    0x2c  data_init3.o [5]
+  .rodata              const    0x1fff2048    0x24  assert.o [1]
+  .text                ro code  0x1fff206c    0x22  zero_init3.o [5]
+  .iar.init_table      const    0x1fff2090    0x10  - Linker created -
+  .text                ro code  0x1fff20a0    0x18  vectors.o [1]
+  .text                ro code  0x1fff20b8    0x16  cmain.o [5]
+  .text                ro code  0x1fff20ce     0x4  low_level_init.o [3]
+  .text                ro code  0x1fff20d2     0x4  exit.o [3]
+  .text                ro code  0x1fff20d8     0xa  cexit.o [5]
+  .text                ro code  0x1fff20e4    0x14  exit.o [6]
+  .rodata              const    0x1fff20f8    0x14  hello_world.o [1]
+  .rodata              const    0x1fff210c    0x14  uart.o [1]
+  .text                ro code  0x1fff2120    0x14  start.o [1]
+  .rodata              const    0x1fff2134    0x10  hello_world.o [1]
+  .rodata              const    0x1fff2144    0x10  hello_world.o [1]
+  .text                ro code  0x1fff2154     0xc  cstartup_M.o [5]
+  .rodata              const    0x1fff2160     0x0  bwt_init3c.o [5]
+                              - 0x1fff2160  0x1d14
+
+"P2", part 1 of 2:                            0x84
+  CodeRelocateRam               0x1fff2160    0x50  <Block>
+    CodeRelocateRam-1           0x1fff2160    0x50  <Init block>
+      .textrw          inited   0x1fff2160    0x50  mcg.o [1]
+  .data                         0x1fff21b0    0x34  <Block>
+    .data-1                     0x1fff21b0    0x34  <Init block>
+      .data            inited   0x1fff21b0     0xc  HAL_SPI.o [1]
+      .data            inited   0x1fff21bc    0x14  io.o [1]
+      .data            inited   0x1fff21d0    0x14  io.o [1]
+                              - 0x1fff21e4    0x84
+
+"P2", part 2 of 2:                           0x40c
+  .bss                          0x1fff21e4   0x40c  <Block>
+    .bss               zero     0x1fff21e4   0x400  oled.o [1]
+    .bss               zero     0x1fff25e4     0x4  sysinit.o [1]
+    .bss               zero     0x1fff25e8     0x4  sysinit.o [1]
+    .bss               zero     0x1fff25ec     0x4  sysinit.o [1]
+                              - 0x1fff25f0   0x40c
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x40c:
+          0x1fff21e4  0x40c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw code  ro data  rw data
+    ------            -------  -------  -------  -------
+C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Demo_OLED\build\iar\hello_world\RAM_128KB\Obj: [1]
+    HAL_SPI.o             224                12       12
+    SPI_FLASH.o             8
+    arm_cm4.o              12
+    assert.o               48                36
+    crt0.o                 60
+    hello_world.o         164                52
+    io.o                  216               120       40
+    mcg.o                 324       80       80
+    oled.o              1 184             2 820    1 024
+    printf.o            1 372
+    start.o                20
+    startup.o             192
+    stdlib.o               32
+    sysinit.o             152                         12
+    uart.o                 56                20
+    vectors.o              24             1 088
+    wdog.o                 56
+    ----------------------------------------------------
+    Total:              4 144       80    4 228    1 088
+
+command line: [2]
+    ----------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------------------------
+    Total:                  8
+
+m7M_tl.a: [4]
+    ----------------------------------------------------
+    Total:
+
+rt7M_tl.a: [5]
+    bwt_init3c.o
+    cexit.o                10
+    cmain.o                22
+    cstartup_M.o           12
+    data_init3.o           44
+    zero_init3.o           34
+    ----------------------------------------------------
+    Total:                122
+
+shb_l.a: [6]
+    exit.o                 20
+    ----------------------------------------------------
+    Total:                 20
+
+    Gaps                    4                 2
+    Linker created                           16
+--------------------------------------------------------
+    Grand Total:        4 298       80    4 246    1 088
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1fff21e4          --   Gb  - Linker created -
+.bss$$Limit             0x1fff25f0          --   Gb  - Linker created -
+.data$$Base             0x1fff21b0          --   Gb  - Linker created -
+.data$$Limit            0x1fff21e4          --   Gb  - Linker created -
+.data_init$$Base        0x1fff1fb8          --   Gb  - Linker created -
+.data_init$$Limit       0x1fff1fec          --   Gb  - Linker created -
+?main                   0x1fff20b9         Code  Gb  cmain.o [5]
+ASSERT_FAILED_STR       0x1fff2048   0x24  Data  Gb  assert.o [1]
+CHINESE                 0x1fff1da8   0xa0  Data  Gb  oled.o [1]
+CodeRelocate$$Base      0x1fff1f30          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x1fff1f80          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff2160          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff21b0          --   Gb  - Linker created -
+GPIOx                   0x1fff21bc   0x14  Data  Gb  io.o [1]
+LCD_Set_Pos             0x1fff10c1   0x36  Code  Gb  oled.o [1]
+OLED_Clear              0x1fff108d   0x34  Code  Gb  oled.o [1]
+OLED_DrawPoint          0x1fff10f7   0xae  Code  Gb  oled.o [1]
+OLED_GRAM               0x1fff21e4  0x400  Data  Gb  oled.o [1]
+OLED_Init               0x1fff134d   0xf8  Code  Gb  oled.o [1]
+OLED_Refresh_Gram       0x1fff0fb9   0x50  Code  Gb  oled.o [1]
+OLED_ShowCHinese        0x1fff126b   0x9a  Code  Gb  oled.o [1]
+OLED_ShowChar           0x1fff11a5   0xc6  Code  Gb  oled.o [1]
+OLED_ShowString         0x1fff1305   0x48  Code  Gb  oled.o [1]
+OLED_WR_Byte            0x1fff1009   0x84  Code  Gb  oled.o [1]
+PORTX                   0x1fff21d0   0x14  Data  Gb  io.o [1]
+Region$$Table$$Base     0x1fff2090          --   Gb  - Linker created -
+Region$$Table$$Limit    0x1fff20a0          --   Gb  - Linker created -
+SPI_Init                0x1fff1459   0x7e  Code  Gb  HAL_SPI.o [1]
+SPI_Master_WriteRead    0x1fff14d7   0x46  Code  Gb  HAL_SPI.o [1]
+SPIx_Ptr                0x1fff21b0    0xc  Data  Gb  HAL_SPI.o [1]
+USART3_IRQHandler       0x1fff165d   0x1c  Code  Gb  uart.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8          --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000          --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x1fff0000          --   Gb  command line/config [2]
+__cmain                 0x1fff20b9         Code  Gb  cmain.o [5]
+__exit                  0x1fff20e5   0x14  Code  Gb  exit.o [6]
+__iar_SB                0x1fff2160         Data  Gb  bwt_init3c.o [5]
+__iar_data_init3        0x1fff201d   0x2c  Code  Gb  data_init3.o [5]
+__iar_program_start     0x1fff2155         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x1fff206d   0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x1fff20cf    0x4  Code  Gb  low_level_init.o [3]
+__startup               0x1fff0411         Code  Gb  crt0.o [1]
+__vector_table          0x1fff0000  0x410  Data  Gb  vectors.o [1]
+_call_main              0x1fff20c5         Code  Gb  cmain.o [5]
+_exit                   0x1fff20d9         Code  Gb  cexit.o [5]
+_main                   0x1fff20cb         Code  Gb  cmain.o [5]
+assert_failed           0x1fff1619   0x30  Code  Gb  assert.o [1]
+common_startup          0x1fff1c39   0xc0  Code  Gb  startup.o [1]
+core_clk_khz            0x1fff25e4    0x4  Data  Gb  sysinit.o [1]
+core_clk_mhz            0x1fff25e8    0x4  Data  Gb  sysinit.o [1]
+default_isr             0x1fff20a1   0x18  Code  Gb  vectors.o [1]
+delay_ms                0x1fff1539    0x8  Code  Gb  SPI_FLASH.o [1]
+exit                    0x1fff20d3    0x4  Code  Gb  exit.o [3]
+fb_clk_init             0x1fff1ea7   0x16  Code  Gb  sysinit.o [1]
+gpio_init               0x1fff1541   0xb8  Code  Gb  io.o [1]
+main                    0x1fff1d05   0xa4  Code  Gb  hello_world.o [1]
+oled_asc2_1206          0x1fff1680  0x474  Data  Gb  oled.o [1]
+oled_asc2_1608          0x1fff044c  0x5f0  Data  Gb  oled.o [1]
+out_char                0x1fff15f9   0x10  Code  Gb  io.o [1]
+periph_clk_khz          0x1fff25ec    0x4  Data  Gb  sysinit.o [1]
+pll_init                0x1fff1af5  0x126  Code  Gb  mcg.o [1]
+printf                  0x1fff0f6f   0x26  Code  Gb  printf.o [1]
+printk                  0x1fff0b65  0x40a  Code  Gb  printf.o [1]
+printk_mknumstr         0x1fff0a6f   0xaa  Code  Lc  printf.o [1]
+printk_pad_space        0x1fff0b3f   0x26  Code  Lc  printf.o [1]
+printk_pad_zero         0x1fff0b19   0x26  Code  Lc  printf.o [1]
+printk_putc             0x1fff0a3d   0x32  Code  Lc  printf.o [1]
+set_sys_dividers        0x1fff2161   0x50  Code  Gb  mcg.o [1]
+start                   0x1fff2121   0x14  Code  Gb  start.o [1]
+strlen                  0x1fff0f99   0x20  Code  Gb  stdlib.o [1]
+sysinit                 0x1fff1e49   0x48  Code  Gb  sysinit.o [1]
+trace_clk_init          0x1fff1e91   0x16  Code  Gb  sysinit.o [1]
+uart_getchar            0x1fff1649    0xa  Code  Gb  uart.o [1]
+uart_putchar            0x1fff1653    0xa  Code  Gb  uart.o [1]
+wdog_disable            0x1fff1f81   0x16  Code  Gb  wdog.o [1]
+wdog_unlock             0x1fff1f99   0x16  Code  Gb  wdog.o [1]
+write_vtor              0x1fff1cf9    0x6  Code  Gb  arm_cm4.o [1]
+
+
+[1] = C:\Users\me\Desktop\OLED¿Í»§×ÊÁÏ\³ÌÐòÀý³Ì\KinetisK60_Demo_OLED\build\iar\hello_world\RAM_128KB\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  4 298 bytes of readonly  code memory
+     80 bytes of readwrite code memory
+  4 246 bytes of readonly  data memory
+  1 088 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
