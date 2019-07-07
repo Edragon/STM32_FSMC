@@ -1,0 +1,206 @@
+###############################################################################
+#                                                                             #
+#                                                       08/Jul/2014  15:37:38 #
+# IAR ANSI C/C++ Compiler V6.30.6.23336/W32 EVALUATION for ARM                #
+# Copyright 1999-2012 IAR Systems AB.                                         #
+#                                                                             #
+#    Cpu mode     =  thumb                                                    #
+#    Endian       =  little                                                   #
+#    Source file  =  E:\完成设计的产品\K60资料\OLED资料                       #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\src\dri #
+#                    vers\wdog\wdog.c                                         #
+#    Command line =  "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\src\dri #
+#                    vers\wdog\wdog.c" -D IAR -D TWR_K60N512 -lCN             #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\FLASH_512KB_PFLASH\List\" -lB             #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\FLASH_512KB_PFLASH\List\" -o              #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\FLASH_512KB_PFLASH\Obj\" --no_cse         #
+#                    --no_unroll --no_inline --no_code_motion --no_tbaa       #
+#                    --no_clustering --no_scheduling --debug --endian=little  #
+#                    --cpu=Cortex-M4 -e --fpu=None --dlib_config              #
+#                    C:\IAR\arm\INC\c\DLib_Config_Normal.h -I                 #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\projects\hello_world\" -I    #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\common\" -I                  #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\cpu\" -I                     #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\cpu\headers\" -I             #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\adc16\" -I           #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\enet\" -I            #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\pmc\" -I             #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\rtc\" -I             #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\lptmr\" -I           #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\uart\" -I            #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\mcg\" -I             #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\wdog\" -I            #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\platforms\" -I               #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\ftm\" -I             #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\SPI\" -I             #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\..\..\src\drivers\OLED\" -I            #
+#                    "E:\完成设计的产品\K60资料\OLED资料                      #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\..\" -Ol --use_c++_inline                 #
+#    List file    =  E:\完成设计的产品\K60资料\OLED资料                       #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\FLASH_512KB_PFLASH\List\wdog.lst          #
+#    Object file  =  E:\完成设计的产品\K60资料\OLED资料                       #
+#                    (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\build\i #
+#                    ar\hello_world\FLASH_512KB_PFLASH\Obj\wdog.o             #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+E:\完成设计的产品\K60资料\OLED资料 (1)\OLED客户资料-1406\OLED程序例程\K60_4WIRE_SPI\src\drivers\wdog\wdog.c
+      1          /*
+      2           * File:        wdog.c
+      3           * Purpose:     Provide common watchdog module routines
+      4           *
+      5           * Notes:		Need to add more functionality. Right now it
+      6           * 				is just a disable routine since we know almost
+      7           * 				all projects will need that.       
+      8           *              
+      9           */
+     10          
+     11          #include "common.h"
+     12          #include "wdog.h"
+     13                 
+     14          /********************************************************************/
+     15          /*
+     16           * Watchdog timer disable routine
+     17           *
+     18           * Parameters:
+     19           * none
+     20           */
+
+   \                                 In section .text, align 2, keep-with-next
+     21          void wdog_disable(void)
+     22          {
+   \                     wdog_disable:
+   \   00000000   0xB580             PUSH     {R7,LR}
+     23          	/* First unlock the watchdog so that we can write to registers */
+     24          	wdog_unlock();
+   \   00000002   0x.... 0x....      BL       wdog_unlock
+     25          	
+     26          	/* Clear the WDOGEN bit to disable the watchdog */
+     27          	WDOG_STCTRLH &= ~WDOG_STCTRLH_WDOGEN_MASK;
+   \   00000006   0x....             LDR.N    R0,??DataTable1  ;; 0x40052000
+   \   00000008   0x8800             LDRH     R0,[R0, #+0]
+   \   0000000A   0xF64F 0x71FE      MOVW     R1,#+65534
+   \   0000000E   0x4008             ANDS     R0,R1,R0
+   \   00000010   0x....             LDR.N    R1,??DataTable1  ;; 0x40052000
+   \   00000012   0x8008             STRH     R0,[R1, #+0]
+     28          }
+   \   00000014   0xBD01             POP      {R0,PC}          ;; return
+     29          /********************************************************************/
+     30          /*
+     31           * Watchdog timer unlock routine. Writing 0xC520 followed by 0xD928
+     32           * will unlock the write once registers in the WDOG so they are writable
+     33           * within the WCT period.
+     34           *
+     35           * Parameters:
+     36           * none
+     37           */
+
+   \                                 In section .text, align 4, keep-with-next
+     38          void wdog_unlock(void)
+     39          {
+     40            /* NOTE: DO NOT SINGLE STEP THROUGH THIS FUNCTION!!! */
+     41            /* There are timing requirements for the execution of the unlock. If
+     42             * you single step through the code you will cause the CPU to reset.
+     43             */
+     44          
+     45          	/* This sequence must execute within 20 clock cycles, so disable
+     46                   * interrupts will keep the code atomic and ensure the timing.
+     47                   */
+     48                  DisableInterrupts;
+   \                     wdog_unlock:
+   \   00000000   0xB672             CPSID i         
+     49          	
+     50          	/* Write 0xC520 to the unlock register */
+     51          	WDOG_UNLOCK = 0xC520;
+   \   00000002   0x....             LDR.N    R0,??DataTable1_1  ;; 0x4005200e
+   \   00000004   0xF24C 0x5120      MOVW     R1,#+50464
+   \   00000008   0x8001             STRH     R1,[R0, #+0]
+     52          	
+     53          	/* Followed by 0xD928 to complete the unlock */
+     54          	WDOG_UNLOCK = 0xD928;
+   \   0000000A   0x....             LDR.N    R0,??DataTable1_1  ;; 0x4005200e
+   \   0000000C   0xF64D 0x1128      MOVW     R1,#+55592
+   \   00000010   0x8001             STRH     R1,[R0, #+0]
+     55          	
+     56          	/* Re-enable interrupts now that we are done */	
+     57                 	EnableInterrupts;
+   \   00000012   0xB662             CPSIE i         
+     58          }
+   \   00000014   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \   00000000   0x40052000         DC32     0x40052000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \   00000000   0x4005200E         DC32     0x4005200e
+     59          /********************************************************************/
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+        8  wdog_disable
+             8 -> wdog_unlock
+        0  wdog_unlock
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+      22  wdog_disable
+      22  wdog_unlock
+
+ 
+ 52 bytes in section .text
+ 
+ 52 bytes of CODE memory
+
+Errors: none
+Warnings: none
