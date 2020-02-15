@@ -1,0 +1,1 @@
+hal_stm32f103c8tx_oled_example\startup_stm32f103xb.o: startup_stm32f103xb.s
